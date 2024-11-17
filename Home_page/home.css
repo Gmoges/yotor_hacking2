@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    color: white;
+    background-image: url(../img/AdobeStock_851850376_Preview.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh
+
+}
+.head {
+    color: rgb(255, 38, 0);
+    text-decoration: greenyellow;
+    text-transform: capitalize;
+    text-shadow: 120px;
+    transform: translate(0 , 0 ,-5);
+    background-color: rgba(0, 0, 0, 0.295);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-top: 0px;
+    display: flex;
+}
+
+.head img{
+    width: 50px;
+    border-radius: 20px;
+}
+.sub_title1{
+    margin-top: 130px;
+    text-align: center;
+    justify-content: center;
+    
+    display: flex;
+    flex-direction: column;
+}
+.sub_title1 h1{
+    color: rgb(2, 250, 6);
+    padding: 10px;
+    text-align: start;
+    padding-left: 60px;
+}
+.rejister_button button{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 80px;
+    background-color: #004a98;
+    cursor: pointer;
+}
+.rejister_button button:hover{
+    background-color: rgb(255, 183, 0);
+}
+
+
+
+.part_2{
+    background-color: #07133d; ;
+}
+
+.image img{
+    border-radius: 40%;
+    padding-top: 30px;
+    padding-left: 40px;
+    width: 250px;
+}
